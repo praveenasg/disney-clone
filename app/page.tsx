@@ -14,7 +14,7 @@ export default async function Home() {
 
   return (
     // <main className="max-w-[2048px] mx-auto">
-    <main className="">
+    <main className="text-white">
       <CarouselBannerWrapper movies={popularMovies} />
       {/*       <div className="flex flex-col lg:-mt-42 space-y-2"> */}
       <div className="flex flex-col space-y-2 xl:-mt-48">
